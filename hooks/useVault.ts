@@ -23,10 +23,9 @@ export interface CreateVaultParams {
 }
 
 export const useVault = () => {
-  const { isConnected, address } = useAccount();
+  const { isConnected, address, chainId } = useAccount();
   const signer = useEthersSigner();
   const provider = useEthersProvider();
-  const { chainId } = useNetworkConfig();
   const { secondsPerBlock } = useNetworkConfig();
   
   const [vaults, setVaults] = useState<Vault[]>([]);

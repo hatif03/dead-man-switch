@@ -72,7 +72,7 @@ The Digital Dead Man's Switch solves a fundamental problem in legacy planning: t
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/dead-man-switch.git
+git clone https://github.com/hatif03/dead-man-switch.git
 cd dead-man-switch
 ```
 

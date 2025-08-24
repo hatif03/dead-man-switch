@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 export default function Home() {
@@ -27,11 +26,11 @@ export default function Home() {
             <div className="space-y-6 md:space-y-8 mb-10 md:mb-16">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 max-w-5xl leading-tight">
                 Trustless Digital{" "}
-                <span className="text-red-600">Dead Man's Switch</span>
+                <span className="text-red-600">Dead Man&apos;s Switch</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 max-w-3xl leading-relaxed">
                 Secure, automated inheritance and corporate succession planning using blockchain technology. 
-                Your sensitive documents are automatically released only when you're no longer able to maintain them.
+                Your sensitive documents are automatically released only when you&apos;re no longer able to maintain them.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link href="/vault" className="inline-block">

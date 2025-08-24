@@ -146,7 +146,7 @@ const BeneficiaryPage = () => {
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">No Vaults Available</h3>
             <p className="text-gray-600">
-              You don't have any vaults released to you yet. Vaults will appear here once they are 
+              You don&apos;t have any vaults released to you yet. Vaults will appear here once they are 
               automatically released due to missed heartbeats.
             </p>
           </div>
@@ -218,13 +218,13 @@ const BeneficiaryPage = () => {
               <h4 className="font-semibold text-blue-900 text-lg mb-2">About the Release Process</h4>
               <div className="text-blue-800 space-y-2">
                 <p>
-                  Vaults are automatically released when the creator fails to send periodic "heartbeat" transactions 
+                  Vaults are automatically released when the creator fails to send periodic &quot;heartbeat&quot; transactions 
                   within the specified time interval. This typically indicates that the creator is no longer able to 
                   maintain the vault due to death, incapacitation, or other circumstances.
                 </p>
                 <p>
                   Once a vault is released, you as the designated beneficiary can claim it to access the encrypted 
-                  content. The decryption process happens automatically through the blockchain's blocklock protocol.
+                  content. The decryption process happens automatically through the blockchain&apos;s blocklock protocol.
                 </p>
                 <p>
                   <strong>Important:</strong> The content you receive may contain sensitive legal documents, 

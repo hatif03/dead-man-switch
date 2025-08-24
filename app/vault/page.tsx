@@ -202,7 +202,7 @@ const VaultPage = () => {
                   <option value="12">Every 12 months</option>
                 </select>
                 <p className="text-sm text-gray-500 mt-1">
-                  You must send a "heartbeat" transaction within this period to delay the release
+                  You must send a &quot;heartbeat&quot; transaction within this period to delay the release
                 </p>
               </div>
 
@@ -215,7 +215,7 @@ const VaultPage = () => {
                     <h4 className="font-semibold text-blue-900">How It Works</h4>
                     <ul className="text-sm text-blue-800 mt-2 space-y-1">
                       <li>• Your data is encrypted and stored securely on the blockchain</li>
-                      <li>• You must send periodic "heartbeat" transactions to keep it locked</li>
+                      <li>• You must send periodic &quot;heartbeat&quot; transactions to keep it locked</li>
                       <li>• If you stop sending heartbeats, the data is automatically released to your beneficiary</li>
                       <li>• The system includes a 50-year fail-safe as ultimate protection</li>
                     </ul>
