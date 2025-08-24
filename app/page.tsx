@@ -119,25 +119,28 @@ export default function Home() {
             </div>
             <div className="flex space-x-6">
               <a
-                href="#"
+                href="https://github.com/hatif03/dead-man-switch/blob/main/README.md"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
               >
                 Documentation
               </a>
               <a
-                href="#"
+                href="https://github.com/hatif03/dead-man-switch"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
               >
                 GitHub
               </a>
               <a
-                href="#"
+                href="https://x.com/hatif_15"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-white transition-colors duration-300"
               >
-                Support
+                Twitter
               </a>
             </div>
           </div>

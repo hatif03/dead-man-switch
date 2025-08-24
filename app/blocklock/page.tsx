@@ -7,7 +7,6 @@ import Wallet from "../wallet";
 
 import { useExplorer } from "@/hooks/useExplorer";
 import { useEncrypt } from "@/hooks/useEncrypt";
-import Footer from "@/components/Footer";
 
 const BlockLockPage = () => {
   const { isConnected } = useAccount();
@@ -234,7 +233,56 @@ const BlockLockPage = () => {
           </div>
         )}
       </div>
-      <Footer />
+      
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-8 md:py-12">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0">
+            <div className="text-center md:text-left">
+              <div className="flex items-center space-x-3 mb-4">
+                <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center">
+                  <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
+                  </svg>
+                </div>
+                <span className="text-xl font-bold">DeadManSwitch</span>
+              </div>
+              <p className="text-gray-400 mb-2">Secure Digital Inheritance</p>
+            </div>
+            <div className="flex space-x-6">
+              <a
+                href="https://github.com/hatif03/dead-man-switch/blob/main/README.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors duration-300"
+              >
+                Documentation
+              </a>
+              <a
+                href="https://github.com/hatif03/dead-man-switch"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors duration-300"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://x.com/hatif_15"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white transition-colors duration-300"
+              >
+                Twitter
+              </a>
+            </div>
+          </div>
+          <div className="mt-8 pt-8 border-t border-gray-800 text-center">
+            <p className="text-gray-400">
+              Built with ❤️ for secure digital legacy planning
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   ) : (
     <Wallet />
